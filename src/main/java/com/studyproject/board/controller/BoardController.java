@@ -2,15 +2,27 @@ package com.studyproject.board.controller;
 
 import com.studyproject.board.entity.Board;
 import com.studyproject.board.service.BoardService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
 public class BoardController {
+
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
+    public void logTest() {
+        logger.trace("Trace level");
+        logger.debug("Debug level");
+        logger.info("INFO level");
+        logger.warn("WARN level");
+        logger.error("Error level");
+    }
 
     @Autowired //의존성 주입
     private BoardService boardService;

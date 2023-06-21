@@ -3,7 +3,7 @@
 <!--    logback 구현체가 설정을 확인하는 주기 -->
 
     <!-- 로그 파일이 저장될 경로 -->
-    <property name="LOG_PATH" value="/usr/sampleApp/logs"/>
+    <property name="LOG_PATH" value="C:\Log"/>
     <!-- 로그 파일 이름 -->
     <property name="LOG_FILE_NAME" value="sampleLog"/>
     <!-- 로그 출력 패턴 -->
@@ -25,7 +25,7 @@
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
         <layout class="ch.qos.logback.classic.PatternLayout">
             <Pattern>
-                [%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} : %30logger{5} - %msg%n
+                [%d{yyyy-MM-dd HH:mm:ss.SSS}]  [%-5level] [%thread] %logger %msg%n
             </Pattern>
         </layout>
     </appender>

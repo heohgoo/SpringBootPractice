@@ -12,11 +12,20 @@ public class BoardService {
 
     @Autowired //의존성 주입
     private BoardRepository boardRepository;
+
     public void write(Board board) {
         boardRepository.save(board);
-    } //레포지토리에 데이터 저장
+    } //레포지토리에 데이터 저장, 글 작성 처리
 
     public List<Board> boardList() {
-        return boardRepository.findAll(); //레포지토리에 있는 데이터 불러온다.
-    }
+        return boardRepository.findAll();
+    } //게시글 리스트 처리
+
+    public Board boardView(Integer id) {
+        return boardRepository.findById(id).get();
+    } // 특정 게시글 불러오기
+
+    public void boardDelete(Integer id) {
+        boardRepository.deleteById(id);
+    } // 특정 게시글 삭제
 }

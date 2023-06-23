@@ -7,11 +7,16 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.multipart.MultipartFile;
 
 @Controller
 public class BoardController {
@@ -24,15 +29,35 @@ public class BoardController {
     }
 
     @PostMapping("/board/writepro")
-    public String boardWritePro(Board board){
-        boardService.write(board); //BoardController에서 불러옴(레포지토리에 데이터 저장)
-        return "redirect:/board/list";
+    public String boardWritePro(Board board, Model model, MultipartFile file) throws Exception{
+        boardService.write(board, file); //BoardController에서 불러옴(레포지토리에 데이터 저장)
+        model.addAttribute("message", "글 작성이 완료되었습니다.");
+        model.addAttribute("searchUrl", "/board/list");
+        return "message";
     }
 
     @GetMapping("board/list")
-    public String boardList(Model model){ //모델은 HashMap 형태를 가진다.(key, value)
+    public String boardList(Model model, @PageableDefault(page = 0, size = 10, sort= "id", direction = Sort.Direction.DESC)
+    Pageable pageable, String searchKeyword){ //모델은 HashMap 형태를 가진다.(key, value)
         // => addAttribute : 해당 모델에 원하는 속성과 그에 대한 값을 주어 전달할 뷰에 데이터를 전달
-        model.addAttribute("list", boardService.boardList());
+        Page<Board> list = null;
+
+        if(searchKeyword == null){
+            list = boardService.boardList(pageable);
+        }else {
+            list = boardService.boardSearchList(searchKeyword, pageable);
+        }
+
+        int nowPage = list.getPageable().getPageNumber()+1;
+        int startPage = Math.max(nowPage - 4, 1);
+        int endPage = Math.min(nowPage + 5, list.getTotalPages());
+
+        model.addAttribute("list", list);
+        model.addAttribute("nowPage", nowPage);
+        model.addAttribute("startPage", startPage);
+        model.addAttribute("endPage", endPage);
+
+
         return "boardlist";
     }
 
@@ -55,12 +80,12 @@ public class BoardController {
     }
 
     @PostMapping("/board/update/{id}")
-    public String boardUpdate(@PathVariable("id") Integer id, Board board) {
+    public String boardUpdate(@PathVariable("id") Integer id, Board board, MultipartFile file) throws Exception {
         Board boardTmp = boardService.boardView(id);
         boardTmp.setTitle(board.getTitle());
         boardTmp.setContent(board.getContent());
 
-        boardService.write(boardTmp);
+        boardService.write(boardTmp, file);
 
         return "redirect:/board/list";
     }

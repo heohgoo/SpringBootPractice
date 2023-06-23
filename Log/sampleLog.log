@@ -1,181 +1,148 @@
-INFO  23-06-22 21:47:14[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 13808 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
-INFO  23-06-22 21:47:14[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
-INFO  23-06-22 21:47:15[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-INFO  23-06-22 21:47:15[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
-INFO  23-06-22 21:47:15[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
-INFO  23-06-22 21:47:15[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 21:47:15[main] [StandardService:173] - Starting service [Tomcat]
-INFO  23-06-22 21:47:15[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
-INFO  23-06-22 21:47:15[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
-INFO  23-06-22 21:47:15[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1298 ms
-INFO  23-06-22 21:47:15[main] [HikariDataSource:110] - HikariPool-1 - Starting...
-INFO  23-06-22 21:47:15[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
-INFO  23-06-22 21:47:15[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
-INFO  23-06-22 21:47:15[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
-INFO  23-06-22 21:47:16[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-INFO  23-06-22 21:47:16[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
-INFO  23-06-22 21:47:16[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-INFO  23-06-22 21:47:16[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-WARN  23-06-22 21:47:17[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-INFO  23-06-22 21:47:17[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 21:47:17[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
-INFO  23-06-22 21:47:17[main] [BoardApplication:61] - Started BoardApplication in 3.683 seconds (JVM running for 4.392)
-INFO  23-06-22 21:47:39[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-INFO  23-06-22 21:47:39[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
-INFO  23-06-22 21:47:39[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
-INFO  23-06-22 21:49:05[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
-INFO  23-06-22 21:49:05[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
-INFO  23-06-22 21:49:05[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
-INFO  23-06-22 21:49:07[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 13228 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
-INFO  23-06-22 21:49:07[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
-INFO  23-06-22 21:49:08[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-INFO  23-06-22 21:49:08[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
-INFO  23-06-22 21:49:08[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
-INFO  23-06-22 21:49:08[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 21:49:08[main] [StandardService:173] - Starting service [Tomcat]
-INFO  23-06-22 21:49:08[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
-INFO  23-06-22 21:49:08[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
-INFO  23-06-22 21:49:08[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1412 ms
-INFO  23-06-22 21:49:08[main] [HikariDataSource:110] - HikariPool-1 - Starting...
-INFO  23-06-22 21:49:08[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
-INFO  23-06-22 21:49:09[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
-INFO  23-06-22 21:49:09[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
-INFO  23-06-22 21:49:09[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-INFO  23-06-22 21:49:09[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
-INFO  23-06-22 21:49:09[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-INFO  23-06-22 21:49:09[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-WARN  23-06-22 21:49:09[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-INFO  23-06-22 21:49:10[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 21:49:10[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
-INFO  23-06-22 21:49:10[main] [BoardApplication:61] - Started BoardApplication in 3.445 seconds (JVM running for 4.068)
-INFO  23-06-22 21:49:16[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-INFO  23-06-22 21:49:16[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
-INFO  23-06-22 21:49:16[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
-INFO  23-06-22 21:51:07[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
-INFO  23-06-22 21:51:07[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
-INFO  23-06-22 21:51:07[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
-INFO  23-06-22 21:51:09[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 10640 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
-INFO  23-06-22 21:51:09[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
-INFO  23-06-22 21:51:10[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-INFO  23-06-22 21:51:10[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
-INFO  23-06-22 21:51:10[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
-INFO  23-06-22 21:51:10[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 21:51:10[main] [StandardService:173] - Starting service [Tomcat]
-INFO  23-06-22 21:51:10[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
-INFO  23-06-22 21:51:11[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
-INFO  23-06-22 21:51:11[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1198 ms
-INFO  23-06-22 21:51:11[main] [HikariDataSource:110] - HikariPool-1 - Starting...
-INFO  23-06-22 21:51:11[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
-INFO  23-06-22 21:51:11[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
-INFO  23-06-22 21:51:11[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
-INFO  23-06-22 21:51:11[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-INFO  23-06-22 21:51:11[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
-INFO  23-06-22 21:51:11[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-INFO  23-06-22 21:51:11[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-WARN  23-06-22 21:51:12[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-INFO  23-06-22 21:51:12[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 21:51:12[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
-INFO  23-06-22 21:51:12[main] [BoardApplication:61] - Started BoardApplication in 3.208 seconds (JVM running for 3.813)
-INFO  23-06-22 21:51:18[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-INFO  23-06-22 21:51:18[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
-INFO  23-06-22 21:51:18[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
-INFO  23-06-22 21:56:12[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
-INFO  23-06-22 21:56:12[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
-INFO  23-06-22 21:56:12[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
-INFO  23-06-22 21:56:21[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 8388 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
-INFO  23-06-22 21:56:21[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
-INFO  23-06-22 21:56:22[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-INFO  23-06-22 21:56:22[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
-INFO  23-06-22 21:56:22[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
-INFO  23-06-22 21:56:22[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 21:56:22[main] [StandardService:173] - Starting service [Tomcat]
-INFO  23-06-22 21:56:22[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
-INFO  23-06-22 21:56:22[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
-INFO  23-06-22 21:56:22[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1208 ms
-INFO  23-06-22 21:56:22[main] [HikariDataSource:110] - HikariPool-1 - Starting...
-INFO  23-06-22 21:56:22[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
-INFO  23-06-22 21:56:22[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
-INFO  23-06-22 21:56:22[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
-INFO  23-06-22 21:56:23[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-INFO  23-06-22 21:56:23[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
-INFO  23-06-22 21:56:23[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-INFO  23-06-22 21:56:23[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-WARN  23-06-22 21:56:23[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-INFO  23-06-22 21:56:24[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 21:56:24[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
-INFO  23-06-22 21:56:24[main] [BoardApplication:61] - Started BoardApplication in 3.337 seconds (JVM running for 3.897)
-INFO  23-06-22 21:56:30[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-INFO  23-06-22 21:56:30[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
-INFO  23-06-22 21:56:30[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
-INFO  23-06-22 21:58:04[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
-INFO  23-06-22 21:58:04[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
-INFO  23-06-22 21:58:04[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
-INFO  23-06-22 21:58:06[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 14196 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
-INFO  23-06-22 21:58:06[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
-INFO  23-06-22 21:58:07[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-INFO  23-06-22 21:58:07[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
-INFO  23-06-22 21:58:07[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
-INFO  23-06-22 21:58:07[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 21:58:07[main] [StandardService:173] - Starting service [Tomcat]
-INFO  23-06-22 21:58:07[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
-INFO  23-06-22 21:58:08[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
-INFO  23-06-22 21:58:08[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1146 ms
-INFO  23-06-22 21:58:08[main] [HikariDataSource:110] - HikariPool-1 - Starting...
-INFO  23-06-22 21:58:08[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
-INFO  23-06-22 21:58:08[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
-INFO  23-06-22 21:58:08[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
-INFO  23-06-22 21:58:08[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-INFO  23-06-22 21:58:08[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
-INFO  23-06-22 21:58:08[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-INFO  23-06-22 21:58:08[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-WARN  23-06-22 21:58:09[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-INFO  23-06-22 21:58:09[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 21:58:09[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
-INFO  23-06-22 21:58:09[main] [BoardApplication:61] - Started BoardApplication in 3.157 seconds (JVM running for 3.731)
-INFO  23-06-22 21:58:17[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-INFO  23-06-22 21:58:17[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
-INFO  23-06-22 21:58:17[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
-INFO  23-06-22 22:09:09[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
-INFO  23-06-22 22:09:09[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
-INFO  23-06-22 22:09:09[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
-INFO  23-06-22 22:09:12[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 13540 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
-INFO  23-06-22 22:09:12[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
-INFO  23-06-22 22:09:13[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-INFO  23-06-22 22:09:13[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interfaces.
-INFO  23-06-22 22:09:13[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
-INFO  23-06-22 22:09:13[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 22:09:13[main] [StandardService:173] - Starting service [Tomcat]
-INFO  23-06-22 22:09:13[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
-INFO  23-06-22 22:09:13[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
-INFO  23-06-22 22:09:13[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1124 ms
-INFO  23-06-22 22:09:13[main] [HikariDataSource:110] - HikariPool-1 - Starting...
-INFO  23-06-22 22:09:13[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
-INFO  23-06-22 22:09:13[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
-INFO  23-06-22 22:09:14[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
-INFO  23-06-22 22:09:14[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-INFO  23-06-22 22:09:14[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
-INFO  23-06-22 22:09:14[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-INFO  23-06-22 22:09:14[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-WARN  23-06-22 22:09:14[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-INFO  23-06-22 22:09:15[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 22:09:15[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
-INFO  23-06-22 22:09:15[main] [BoardApplication:61] - Started BoardApplication in 3.114 seconds (JVM running for 3.635)
-INFO  23-06-22 22:09:20[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-INFO  23-06-22 22:09:20[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
-INFO  23-06-22 22:09:20[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
-WARN  23-06-22 22:14:35[http-nio-8080-exec-2] [DefaultHandlerExceptionResolver:207] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-WARN  23-06-22 22:14:35[http-nio-8080-exec-3] [DefaultHandlerExceptionResolver:207] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-ERROR 23-06-22 22:17:29[http-nio-8080-exec-4] [TemplateEngine:1136] - [THYMELEAF][http-nio-8080-exec-4] Exception processing template "": Error resolving template [], template might not exist or might not be accessible by any of the configured Template Resolvers
-org.thymeleaf.exceptions.TemplateInputException: Error resolving template [], template might not exist or might not be accessible by any of the configured Template Resolvers
-	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
-	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
-	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
-	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1397)
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1142)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+INFO  23-06-23 20:03:12[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 4736 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
+INFO  23-06-23 20:03:12[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-06-23 20:03:13[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-23 20:03:13[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 39 ms. Found 1 JPA repository interfaces.
+INFO  23-06-23 20:03:13[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-06-23 20:03:13[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:03:13[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-23 20:03:13[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-06-23 20:03:13[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-23 20:03:13[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1488 ms
+INFO  23-06-23 20:03:13[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-23 20:03:13[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-23 20:03:13[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-23 20:03:14[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-06-23 20:03:14[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-23 20:03:14[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+INFO  23-06-23 20:03:14[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-23 20:03:14[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-23 20:03:15[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-23 20:03:15[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:03:15[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-06-23 20:03:15[main] [BoardApplication:61] - Started BoardApplication in 4.11 seconds (JVM running for 4.794)
+INFO  23-06-23 20:03:21[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-23 20:03:21[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-23 20:03:21[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  23-06-23 20:09:59[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-23 20:09:59[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-23 20:09:59[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-23 20:10:02[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 6780 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
+INFO  23-06-23 20:10:02[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-06-23 20:10:03[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-23 20:10:03[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+INFO  23-06-23 20:10:03[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-06-23 20:10:03[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:10:03[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-23 20:10:03[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-06-23 20:10:03[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-23 20:10:03[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1186 ms
+INFO  23-06-23 20:10:03[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-23 20:10:03[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-23 20:10:03[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-23 20:10:03[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-06-23 20:10:04[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-23 20:10:04[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+INFO  23-06-23 20:10:04[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-23 20:10:04[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-23 20:10:04[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-23 20:10:05[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:10:05[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-06-23 20:10:05[main] [BoardApplication:61] - Started BoardApplication in 3.221 seconds (JVM running for 3.788)
+INFO  23-06-23 20:10:09[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-23 20:10:09[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-23 20:10:09[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 0 ms
+WARN  23-06-23 20:10:18[http-nio-8080-exec-3] [DefaultHandlerExceptionResolver:207] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+WARN  23-06-23 20:10:18[http-nio-8080-exec-4] [DefaultHandlerExceptionResolver:207] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+INFO  23-06-23 20:19:22[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-23 20:19:22[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-23 20:19:22[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-23 20:19:25[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 12660 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
+INFO  23-06-23 20:19:25[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-06-23 20:19:26[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-23 20:19:26[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+INFO  23-06-23 20:19:26[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-06-23 20:19:26[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:19:26[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-23 20:19:26[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-06-23 20:19:27[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-23 20:19:27[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1141 ms
+INFO  23-06-23 20:19:27[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-23 20:19:27[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-23 20:19:27[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-23 20:19:27[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-06-23 20:19:27[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-23 20:19:27[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+INFO  23-06-23 20:19:27[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-23 20:19:27[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-23 20:19:28[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-23 20:19:28[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:19:28[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-06-23 20:19:28[main] [BoardApplication:61] - Started BoardApplication in 3.139 seconds (JVM running for 3.692)
+INFO  23-06-23 20:19:32[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-23 20:19:32[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-23 20:19:32[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-23 20:19:35[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 12808 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
+INFO  23-06-23 20:19:35[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-06-23 20:19:36[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-23 20:19:36[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+INFO  23-06-23 20:19:36[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-06-23 20:19:36[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:19:36[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-23 20:19:36[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-06-23 20:19:36[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-23 20:19:36[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1248 ms
+INFO  23-06-23 20:19:37[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-23 20:19:37[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-23 20:19:37[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-23 20:19:37[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-06-23 20:19:37[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-23 20:19:37[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+INFO  23-06-23 20:19:37[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-23 20:19:37[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-23 20:20:17[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-23 20:20:18[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-06-23 20:20:18[main] [BoardApplication:61] - Started BoardApplication in 43.087 seconds (JVM running for 44.28)
+INFO  23-06-23 20:20:18[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-23 20:20:18[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-23 20:20:18[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-23 20:20:20[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 9640 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
+INFO  23-06-23 20:20:20[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-06-23 20:20:21[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-23 20:20:21[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+INFO  23-06-23 20:20:21[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-06-23 20:20:21[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:20:21[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-23 20:20:21[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-06-23 20:20:21[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-23 20:20:21[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1165 ms
+INFO  23-06-23 20:20:21[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-23 20:20:21[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-23 20:20:21[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-23 20:20:21[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-06-23 20:20:21[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-23 20:20:22[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+INFO  23-06-23 20:20:22[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-23 20:20:22[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-23 20:20:22[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-23 20:20:23[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:20:23[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-06-23 20:20:23[main] [BoardApplication:61] - Started BoardApplication in 3.234 seconds (JVM running for 3.895)
+INFO  23-06-23 20:20:26[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-23 20:20:26[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-23 20:20:26[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 0 ms
+ERROR 23-06-23 20:20:36[http-nio-8080-exec-2] [[dispatcherServlet]:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.multipart.MultipartFile.getOriginalFilename()" because "file" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "org.springframework.web.multipart.MultipartFile.getOriginalFilename()" because "file" is null
+	at com.studyproject.board.service.BoardService.write(BoardService.java:24)
+	at com.studyproject.board.controller.BoardController.boardWritePro(BoardController.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064)
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
 	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
@@ -215,17 +182,47 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [], te
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:1589)
-ERROR 23-06-22 22:17:29[http-nio-8080-exec-4] [[dispatcherServlet]:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
-org.thymeleaf.exceptions.TemplateInputException: Error resolving template [], template might not exist or might not be accessible by any of the configured Template Resolvers
-	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
-	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
-	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
-	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
-	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1397)
-	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1142)
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+INFO  23-06-23 20:21:23[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-23 20:21:23[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-23 20:21:23[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-23 20:21:26[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 744 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
+INFO  23-06-23 20:21:26[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-06-23 20:21:27[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-23 20:21:27[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+INFO  23-06-23 20:21:27[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-06-23 20:21:27[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:21:27[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-23 20:21:27[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-06-23 20:21:27[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-23 20:21:27[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1148 ms
+INFO  23-06-23 20:21:28[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-23 20:21:28[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-23 20:21:28[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-23 20:21:28[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-06-23 20:21:28[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-23 20:21:28[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+INFO  23-06-23 20:21:28[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-23 20:21:28[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-23 20:21:29[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-23 20:21:29[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:21:29[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-06-23 20:21:29[main] [BoardApplication:61] - Started BoardApplication in 3.173 seconds (JVM running for 3.749)
+INFO  23-06-23 20:21:40[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-23 20:21:40[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-23 20:21:40[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 0 ms
+ERROR 23-06-23 20:21:40[http-nio-8080-exec-1] [[dispatcherServlet]:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "org.springframework.web.multipart.MultipartFile.getOriginalFilename()" because "file" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "org.springframework.web.multipart.MultipartFile.getOriginalFilename()" because "file" is null
+	at com.studyproject.board.service.BoardService.write(BoardService.java:24)
+	at com.studyproject.board.controller.BoardController.boardWritePro(BoardController.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064)
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
 	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
@@ -265,38 +262,186 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [], te
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:1589)
-INFO  23-06-22 22:21:05[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
-INFO  23-06-22 22:21:05[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
-INFO  23-06-22 22:21:05[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
-INFO  23-06-22 22:21:09[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 13404 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
-INFO  23-06-22 22:21:09[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
-INFO  23-06-22 22:21:10[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-INFO  23-06-22 22:21:10[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
-INFO  23-06-22 22:21:10[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
-INFO  23-06-22 22:21:10[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 22:21:10[main] [StandardService:173] - Starting service [Tomcat]
-INFO  23-06-22 22:21:10[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
-INFO  23-06-22 22:21:10[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
-INFO  23-06-22 22:21:10[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1224 ms
-INFO  23-06-22 22:21:10[main] [HikariDataSource:110] - HikariPool-1 - Starting...
-INFO  23-06-22 22:21:10[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
-INFO  23-06-22 22:21:10[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
-INFO  23-06-22 22:21:10[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
-INFO  23-06-22 22:21:10[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-INFO  23-06-22 22:21:10[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
-INFO  23-06-22 22:21:11[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-INFO  23-06-22 22:21:11[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-WARN  23-06-22 22:21:11[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-INFO  23-06-22 22:21:12[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 22:21:12[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
-INFO  23-06-22 22:21:12[main] [BoardApplication:61] - Started BoardApplication in 3.259 seconds (JVM running for 3.884)
-INFO  23-06-22 22:21:17[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-INFO  23-06-22 22:21:17[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
-INFO  23-06-22 22:21:17[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
-ERROR 23-06-22 22:21:21[http-nio-8080-exec-2] [TemplateEngine:1136] - [THYMELEAF][http-nio-8080-exec-2] Exception processing template "": Error resolving template [], template might not exist or might not be accessible by any of the configured Template Resolvers
-org.thymeleaf.exceptions.TemplateInputException: Error resolving template [], template might not exist or might not be accessible by any of the configured Template Resolvers
-	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+INFO  23-06-23 20:22:55[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-23 20:22:55[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-23 20:22:55[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-23 20:22:57[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 12912 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
+INFO  23-06-23 20:22:57[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-06-23 20:22:58[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-23 20:22:58[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+INFO  23-06-23 20:22:59[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-06-23 20:22:59[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:22:59[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-23 20:22:59[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-06-23 20:22:59[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-23 20:22:59[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1214 ms
+INFO  23-06-23 20:22:59[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-23 20:22:59[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-23 20:22:59[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-23 20:22:59[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-06-23 20:22:59[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-23 20:22:59[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+INFO  23-06-23 20:23:00[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-23 20:23:00[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-23 20:23:26[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-23 20:23:26[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-06-23 20:23:26[main] [BoardApplication:61] - Started BoardApplication in 29.381 seconds (JVM running for 30.159)
+INFO  23-06-23 20:23:26[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-23 20:23:26[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-23 20:23:26[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-23 20:23:28[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 4652 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
+INFO  23-06-23 20:23:28[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-06-23 20:23:29[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-23 20:23:29[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+INFO  23-06-23 20:23:30[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-06-23 20:23:30[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:23:30[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-23 20:23:30[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-06-23 20:23:30[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-23 20:23:30[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1257 ms
+INFO  23-06-23 20:23:30[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-23 20:23:30[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-23 20:23:30[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-23 20:23:30[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-06-23 20:23:30[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-23 20:23:30[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+INFO  23-06-23 20:23:31[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-23 20:23:31[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-23 20:23:31[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-23 20:23:31[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:23:31[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-06-23 20:23:32[main] [BoardApplication:61] - Started BoardApplication in 3.505 seconds (JVM running for 4.243)
+INFO  23-06-23 20:23:39[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-23 20:23:39[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-23 20:23:39[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+WARN  23-06-23 20:26:04[HikariPool-1 housekeeper] [HikariPool:788] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m33s660ms227µs500ns).
+INFO  23-06-23 20:30:16[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-23 20:30:16[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-23 20:30:16[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-23 20:30:20[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 13024 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
+INFO  23-06-23 20:30:20[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-06-23 20:30:20[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-23 20:30:20[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+INFO  23-06-23 20:30:21[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-06-23 20:30:21[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:30:21[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-23 20:30:21[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-06-23 20:30:21[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-23 20:30:21[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1220 ms
+INFO  23-06-23 20:30:21[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-23 20:30:21[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-23 20:30:21[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-23 20:30:21[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-06-23 20:30:21[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-23 20:30:21[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+INFO  23-06-23 20:30:22[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-23 20:30:22[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-23 20:30:22[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-23 20:30:22[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:30:22[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-06-23 20:30:23[main] [BoardApplication:61] - Started BoardApplication in 3.262 seconds (JVM running for 3.8)
+INFO  23-06-23 20:30:48[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-23 20:30:48[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-23 20:30:48[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  23-06-23 20:32:04[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-23 20:32:04[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-23 20:32:05[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-23 20:32:07[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 11608 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
+INFO  23-06-23 20:32:07[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-06-23 20:32:08[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-23 20:32:08[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+INFO  23-06-23 20:32:08[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-06-23 20:32:08[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:32:08[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-23 20:32:08[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-06-23 20:32:08[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-23 20:32:08[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1325 ms
+INFO  23-06-23 20:32:08[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-23 20:32:08[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-23 20:32:08[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-23 20:32:08[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-06-23 20:32:09[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-23 20:32:09[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+INFO  23-06-23 20:32:09[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-23 20:32:09[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-23 20:32:10[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-23 20:32:10[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:32:10[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-06-23 20:32:10[main] [BoardApplication:61] - Started BoardApplication in 3.751 seconds (JVM running for 4.564)
+INFO  23-06-23 20:32:17[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-23 20:32:17[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-23 20:32:17[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  23-06-23 20:32:58[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-23 20:32:58[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-23 20:32:58[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-23 20:33:00[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 10576 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
+INFO  23-06-23 20:33:00[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-06-23 20:33:01[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-23 20:33:01[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+INFO  23-06-23 20:33:01[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-06-23 20:33:01[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:33:01[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-23 20:33:01[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-06-23 20:33:01[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-23 20:33:01[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1158 ms
+INFO  23-06-23 20:33:01[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-23 20:33:01[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-23 20:33:01[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-23 20:33:01[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-06-23 20:33:02[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-23 20:33:02[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+INFO  23-06-23 20:33:02[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-23 20:33:02[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-23 20:33:02[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-23 20:33:03[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:33:03[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-06-23 20:33:03[main] [BoardApplication:61] - Started BoardApplication in 3.292 seconds (JVM running for 4.128)
+INFO  23-06-23 20:33:12[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-23 20:33:12[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-23 20:33:12[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  23-06-23 20:38:35[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-23 20:38:35[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-23 20:38:35[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-23 20:38:37[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 9432 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
+INFO  23-06-23 20:38:37[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-06-23 20:38:37[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-23 20:38:37[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interfaces.
+INFO  23-06-23 20:38:38[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-06-23 20:38:38[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:38:38[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-23 20:38:38[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-06-23 20:38:38[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-23 20:38:38[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1137 ms
+INFO  23-06-23 20:38:38[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-23 20:38:38[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-23 20:38:38[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-23 20:38:38[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-06-23 20:38:38[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-23 20:38:38[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+INFO  23-06-23 20:38:39[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-23 20:38:39[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-23 20:38:39[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-23 20:38:39[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:38:39[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-06-23 20:38:40[main] [BoardApplication:61] - Started BoardApplication in 3.155 seconds (JVM running for 3.866)
+INFO  23-06-23 20:38:45[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-23 20:38:45[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-23 20:38:45[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+ERROR 23-06-23 20:38:45[http-nio-8080-exec-1] [TemplateEngine:1136] - [THYMELEAF][http-nio-8080-exec-1] Exception processing template "boardlist": Exception evaluating SpringEL expression: "board.id" (template: "boardlist" - line 21, col 11)
+org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "board.id" (template: "boardlist" - line 21, col 11)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:292)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661)
 	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
 	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
 	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
@@ -306,8 +451,8 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [], te
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
@@ -343,10 +488,38 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [], te
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:1589)
-ERROR 23-06-22 22:21:21[http-nio-8080-exec-2] [[dispatcherServlet]:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
-org.thymeleaf.exceptions.TemplateInputException: Error resolving template [], template might not exist or might not be accessible by any of the configured Template Resolvers
-	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
-	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'id' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
+	... 58 common frames omitted
+ERROR 23-06-23 20:38:45[http-nio-8080-exec-1] [[dispatcherServlet]:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "board.id" (template: "boardlist" - line 21, col 11)] with root cause
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'id' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:661)
 	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
 	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
 	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
@@ -356,8 +529,8 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [], te
 	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
 	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
-	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
 	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
 	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
@@ -393,205 +566,533 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [], te
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.base/java.lang.Thread.run(Thread.java:1589)
-INFO  23-06-22 22:22:25[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
-INFO  23-06-22 22:22:25[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
-INFO  23-06-22 22:22:25[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
-INFO  23-06-22 22:22:28[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 1724 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
-INFO  23-06-22 22:22:28[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
-INFO  23-06-22 22:22:29[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-INFO  23-06-22 22:22:29[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
-INFO  23-06-22 22:22:29[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
-INFO  23-06-22 22:22:29[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 22:22:29[main] [StandardService:173] - Starting service [Tomcat]
-INFO  23-06-22 22:22:29[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
-INFO  23-06-22 22:22:29[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
-INFO  23-06-22 22:22:29[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1206 ms
-INFO  23-06-22 22:22:29[main] [HikariDataSource:110] - HikariPool-1 - Starting...
-INFO  23-06-22 22:22:29[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
-INFO  23-06-22 22:22:29[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
-INFO  23-06-22 22:22:29[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
-INFO  23-06-22 22:22:30[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-INFO  23-06-22 22:22:30[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
-INFO  23-06-22 22:22:30[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-INFO  23-06-22 22:22:30[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-WARN  23-06-22 22:22:30[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-INFO  23-06-22 22:22:31[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 22:22:31[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
-INFO  23-06-22 22:22:31[main] [BoardApplication:61] - Started BoardApplication in 3.431 seconds (JVM running for 3.989)
-INFO  23-06-22 22:22:37[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-INFO  23-06-22 22:22:37[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
-INFO  23-06-22 22:22:37[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 0 ms
-INFO  23-06-22 22:27:58[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
-INFO  23-06-22 22:27:58[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
-INFO  23-06-22 22:27:58[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
-INFO  23-06-22 22:28:00[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 8648 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
-INFO  23-06-22 22:28:00[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
-INFO  23-06-22 22:28:01[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-INFO  23-06-22 22:28:01[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
-INFO  23-06-22 22:28:01[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
-INFO  23-06-22 22:28:01[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 22:28:01[main] [StandardService:173] - Starting service [Tomcat]
-INFO  23-06-22 22:28:01[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
-INFO  23-06-22 22:28:01[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
-INFO  23-06-22 22:28:01[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1150 ms
-INFO  23-06-22 22:28:01[main] [HikariDataSource:110] - HikariPool-1 - Starting...
-INFO  23-06-22 22:28:02[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
-INFO  23-06-22 22:28:02[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
-INFO  23-06-22 22:28:02[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
-INFO  23-06-22 22:28:02[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-INFO  23-06-22 22:28:02[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
-INFO  23-06-22 22:28:02[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-INFO  23-06-22 22:28:02[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-WARN  23-06-22 22:28:02[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-INFO  23-06-22 22:28:03[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 22:28:03[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
-INFO  23-06-22 22:28:03[main] [BoardApplication:61] - Started BoardApplication in 3.202 seconds (JVM running for 3.872)
-INFO  23-06-22 22:28:10[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-INFO  23-06-22 22:28:10[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
-INFO  23-06-22 22:28:10[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
-INFO  23-06-22 22:30:34[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
-INFO  23-06-22 22:30:34[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
-INFO  23-06-22 22:30:34[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
-INFO  23-06-22 22:30:36[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 12928 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
-INFO  23-06-22 22:30:36[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
-INFO  23-06-22 22:30:37[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-INFO  23-06-22 22:30:37[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
-INFO  23-06-22 22:30:37[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
-INFO  23-06-22 22:30:37[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 22:30:37[main] [StandardService:173] - Starting service [Tomcat]
-INFO  23-06-22 22:30:37[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
-INFO  23-06-22 22:30:37[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
-INFO  23-06-22 22:30:37[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1173 ms
-INFO  23-06-22 22:30:37[main] [HikariDataSource:110] - HikariPool-1 - Starting...
-INFO  23-06-22 22:30:37[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
-INFO  23-06-22 22:30:37[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
-INFO  23-06-22 22:30:38[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
-INFO  23-06-22 22:30:38[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-INFO  23-06-22 22:30:38[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
-INFO  23-06-22 22:30:38[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-INFO  23-06-22 22:30:38[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-WARN  23-06-22 22:30:38[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-INFO  23-06-22 22:30:39[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 22:30:39[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
-INFO  23-06-22 22:30:39[main] [BoardApplication:61] - Started BoardApplication in 3.208 seconds (JVM running for 3.998)
-INFO  23-06-22 22:30:49[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-INFO  23-06-22 22:30:49[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
-INFO  23-06-22 22:30:49[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
-INFO  23-06-22 22:32:35[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
-INFO  23-06-22 22:32:35[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
-INFO  23-06-22 22:32:35[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
-INFO  23-06-22 22:32:37[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 13208 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
-INFO  23-06-22 22:32:37[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
-INFO  23-06-22 22:32:38[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-INFO  23-06-22 22:32:38[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
-INFO  23-06-22 22:32:38[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
-INFO  23-06-22 22:32:38[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 22:32:38[main] [StandardService:173] - Starting service [Tomcat]
-INFO  23-06-22 22:32:38[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
-INFO  23-06-22 22:32:38[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
-INFO  23-06-22 22:32:38[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1129 ms
-INFO  23-06-22 22:32:38[main] [HikariDataSource:110] - HikariPool-1 - Starting...
-INFO  23-06-22 22:32:38[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
-INFO  23-06-22 22:32:38[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
-INFO  23-06-22 22:32:38[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
-INFO  23-06-22 22:32:39[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-INFO  23-06-22 22:32:39[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
-INFO  23-06-22 22:32:39[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-INFO  23-06-22 22:32:39[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-WARN  23-06-22 22:32:39[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-INFO  23-06-22 22:32:40[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 22:32:40[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
-INFO  23-06-22 22:32:40[main] [BoardApplication:61] - Started BoardApplication in 3.099 seconds (JVM running for 3.651)
-INFO  23-06-22 22:32:46[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-INFO  23-06-22 22:32:46[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
-INFO  23-06-22 22:32:46[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
-INFO  23-06-22 22:34:32[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
-INFO  23-06-22 22:34:32[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
-INFO  23-06-22 22:34:32[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
-INFO  23-06-22 22:34:34[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 12900 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
-INFO  23-06-22 22:34:34[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
-INFO  23-06-22 22:34:35[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-INFO  23-06-22 22:34:35[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interfaces.
-INFO  23-06-22 22:34:35[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
-INFO  23-06-22 22:34:35[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 22:34:35[main] [StandardService:173] - Starting service [Tomcat]
-INFO  23-06-22 22:34:35[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
-INFO  23-06-22 22:34:35[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
-INFO  23-06-22 22:34:35[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1168 ms
-INFO  23-06-22 22:34:36[main] [HikariDataSource:110] - HikariPool-1 - Starting...
-INFO  23-06-22 22:34:36[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
-INFO  23-06-22 22:34:36[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
-INFO  23-06-22 22:34:36[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
-INFO  23-06-22 22:34:36[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-INFO  23-06-22 22:34:36[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
-INFO  23-06-22 22:34:36[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-INFO  23-06-22 22:34:36[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-WARN  23-06-22 22:34:37[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-INFO  23-06-22 22:34:37[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 22:34:37[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
-INFO  23-06-22 22:34:37[main] [BoardApplication:61] - Started BoardApplication in 3.253 seconds (JVM running for 3.94)
-INFO  23-06-22 22:34:39[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-INFO  23-06-22 22:34:39[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
-INFO  23-06-22 22:34:39[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
-INFO  23-06-22 22:35:02[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
-INFO  23-06-22 22:35:02[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
-INFO  23-06-22 22:35:02[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
-INFO  23-06-22 22:39:19[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 1096 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
-INFO  23-06-22 22:39:19[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
-INFO  23-06-22 22:39:20[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-INFO  23-06-22 22:39:20[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
-INFO  23-06-22 22:39:21[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
-INFO  23-06-22 22:39:21[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 22:39:21[main] [StandardService:173] - Starting service [Tomcat]
-INFO  23-06-22 22:39:21[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
-INFO  23-06-22 22:39:21[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
-INFO  23-06-22 22:39:21[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1156 ms
-INFO  23-06-22 22:39:21[main] [HikariDataSource:110] - HikariPool-1 - Starting...
-INFO  23-06-22 22:39:21[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
-INFO  23-06-22 22:39:21[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
-INFO  23-06-22 22:39:21[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
-INFO  23-06-22 22:39:21[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-INFO  23-06-22 22:39:21[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
-INFO  23-06-22 22:39:21[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-INFO  23-06-22 22:39:22[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-WARN  23-06-22 22:39:22[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-INFO  23-06-22 22:39:22[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 22:39:22[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
-INFO  23-06-22 22:39:22[main] [BoardApplication:61] - Started BoardApplication in 3.219 seconds (JVM running for 3.78)
-INFO  23-06-22 22:39:25[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-INFO  23-06-22 22:39:25[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
-INFO  23-06-22 22:39:25[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
-WARN  23-06-22 22:39:37[http-nio-8080-exec-3] [DefaultHandlerExceptionResolver:207] - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "board.id"]
-WARN  23-06-22 22:41:15[http-nio-8080-exec-7] [DefaultHandlerExceptionResolver:207] - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "board.id"]
-WARN  23-06-22 22:41:18[http-nio-8080-exec-8] [DefaultHandlerExceptionResolver:207] - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "board.id"]
-INFO  23-06-22 22:43:05[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
-INFO  23-06-22 22:43:05[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
-INFO  23-06-22 22:43:05[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
-INFO  23-06-22 22:43:07[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 2620 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
-INFO  23-06-22 22:43:07[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
-INFO  23-06-22 22:43:08[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-INFO  23-06-22 22:43:08[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
-INFO  23-06-22 22:43:08[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
-INFO  23-06-22 22:43:09[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 22:43:09[main] [StandardService:173] - Starting service [Tomcat]
-INFO  23-06-22 22:43:09[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
-INFO  23-06-22 22:43:09[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
-INFO  23-06-22 22:43:09[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1196 ms
-INFO  23-06-22 22:43:09[main] [HikariDataSource:110] - HikariPool-1 - Starting...
-INFO  23-06-22 22:43:09[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
-INFO  23-06-22 22:43:09[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
-INFO  23-06-22 22:43:09[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
-INFO  23-06-22 22:43:09[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-INFO  23-06-22 22:43:09[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
-INFO  23-06-22 22:43:09[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-INFO  23-06-22 22:43:09[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
-WARN  23-06-22 22:43:10[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-INFO  23-06-22 22:43:10[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
-INFO  23-06-22 22:43:10[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
-INFO  23-06-22 22:43:10[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-INFO  23-06-22 22:43:10[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
-INFO  23-06-22 22:43:10[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
-INFO  23-06-22 22:43:10[main] [BoardApplication:61] - Started BoardApplication in 3.259 seconds (JVM running for 3.842)
-INFO  23-06-22 22:43:35[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
-INFO  23-06-22 22:43:35[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
-INFO  23-06-22 22:43:35[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+ERROR 23-06-23 20:38:47[http-nio-8080-exec-2] [TemplateEngine:1136] - [THYMELEAF][http-nio-8080-exec-2] Exception processing template "boardlist": Exception evaluating SpringEL expression: "board.id" (template: "boardlist" - line 21, col 11)
+org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "board.id" (template: "boardlist" - line 21, col 11)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:292)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:592)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1397)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1142)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'id' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
+	... 58 common frames omitted
+ERROR 23-06-23 20:38:47[http-nio-8080-exec-2] [[dispatcherServlet]:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "board.id" (template: "boardlist" - line 21, col 11)] with root cause
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'id' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:592)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1397)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1142)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+ERROR 23-06-23 20:38:48[http-nio-8080-exec-3] [TemplateEngine:1136] - [THYMELEAF][http-nio-8080-exec-3] Exception processing template "boardlist": Exception evaluating SpringEL expression: "board.id" (template: "boardlist" - line 21, col 11)
+org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "board.id" (template: "boardlist" - line 21, col 11)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:292)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:592)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1397)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1142)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'id' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
+	... 58 common frames omitted
+ERROR 23-06-23 20:38:48[http-nio-8080-exec-3] [[dispatcherServlet]:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "board.id" (template: "boardlist" - line 21, col 11)] with root cause
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'id' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:265)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.processor.AbstractStandardExpressionAttributeTagProcessor.doProcess(AbstractStandardExpressionAttributeTagProcessor.java:144)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.OpenElementTag.beHandled(OpenElementTag.java:205)
+	at org.thymeleaf.engine.TemplateModel.process(TemplateModel.java:136)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:592)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:366)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1397)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1142)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+INFO  23-06-23 20:39:31[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-23 20:39:31[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-23 20:39:31[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-23 20:39:34[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 4364 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
+INFO  23-06-23 20:39:34[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-06-23 20:39:34[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-23 20:39:34[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+INFO  23-06-23 20:39:35[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-06-23 20:39:35[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:39:35[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-23 20:39:35[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-06-23 20:39:35[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-23 20:39:35[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1139 ms
+INFO  23-06-23 20:39:35[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-23 20:39:35[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-23 20:39:35[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-23 20:39:35[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-06-23 20:39:35[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-23 20:39:35[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+INFO  23-06-23 20:39:36[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-23 20:39:36[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-23 20:39:36[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-23 20:39:36[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:39:36[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-06-23 20:39:36[main] [BoardApplication:61] - Started BoardApplication in 3.177 seconds (JVM running for 3.845)
+INFO  23-06-23 20:39:39[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-23 20:39:39[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-23 20:39:39[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  23-06-23 20:42:58[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-23 20:42:58[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-23 20:42:58[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-23 20:43:01[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 8260 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
+INFO  23-06-23 20:43:01[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-06-23 20:43:02[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-23 20:43:02[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interfaces.
+INFO  23-06-23 20:43:02[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-06-23 20:43:02[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:43:02[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-23 20:43:02[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-06-23 20:43:02[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-23 20:43:02[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1184 ms
+INFO  23-06-23 20:43:03[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-23 20:43:03[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-23 20:43:03[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-23 20:43:03[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-06-23 20:43:03[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-23 20:43:03[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+INFO  23-06-23 20:43:03[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-23 20:43:03[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-23 20:43:04[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-23 20:43:04[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:43:04[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-06-23 20:43:04[main] [BoardApplication:61] - Started BoardApplication in 3.229 seconds (JVM running for 3.762)
+INFO  23-06-23 20:43:08[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-23 20:43:08[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-23 20:43:08[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  23-06-23 20:49:56[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-23 20:49:56[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-23 20:49:56[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-23 20:50:00[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 7984 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
+INFO  23-06-23 20:50:00[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-06-23 20:50:00[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-23 20:50:00[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interfaces.
+INFO  23-06-23 20:50:01[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-06-23 20:50:01[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:50:01[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-23 20:50:01[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-06-23 20:50:01[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-23 20:50:01[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1154 ms
+INFO  23-06-23 20:50:01[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-23 20:50:01[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-23 20:50:01[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-23 20:50:01[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-06-23 20:50:01[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-23 20:50:01[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+INFO  23-06-23 20:50:02[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-23 20:50:02[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-23 20:50:02[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-23 20:50:02[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:50:02[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-06-23 20:50:02[main] [BoardApplication:61] - Started BoardApplication in 3.147 seconds (JVM running for 3.722)
+INFO  23-06-23 20:50:07[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-23 20:50:07[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-23 20:50:07[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  23-06-23 20:55:13[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-23 20:55:13[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-23 20:55:13[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-23 20:55:16[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 5656 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
+INFO  23-06-23 20:55:16[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-06-23 20:55:16[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-23 20:55:16[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interfaces.
+INFO  23-06-23 20:55:17[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-06-23 20:55:17[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:55:17[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-23 20:55:17[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-06-23 20:55:17[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-23 20:55:17[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1149 ms
+INFO  23-06-23 20:55:17[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-23 20:55:17[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-23 20:55:17[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-23 20:55:17[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-06-23 20:55:17[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-23 20:55:17[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+INFO  23-06-23 20:55:18[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-23 20:55:18[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-23 20:55:18[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-23 20:55:18[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:55:18[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-06-23 20:55:18[main] [BoardApplication:61] - Started BoardApplication in 3.203 seconds (JVM running for 4.024)
+INFO  23-06-23 20:55:34[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-23 20:55:34[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-23 20:55:34[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-23 20:55:36[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 12776 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
+INFO  23-06-23 20:55:36[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-06-23 20:55:37[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-23 20:55:37[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+INFO  23-06-23 20:55:37[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-06-23 20:55:37[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:55:37[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-23 20:55:37[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-06-23 20:55:37[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-23 20:55:37[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1146 ms
+INFO  23-06-23 20:55:37[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-23 20:55:37[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-23 20:55:38[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-23 20:55:38[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-06-23 20:55:38[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-23 20:55:38[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+INFO  23-06-23 20:55:38[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-23 20:55:38[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-23 20:55:38[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-23 20:55:39[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:55:39[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-06-23 20:55:39[main] [BoardApplication:61] - Started BoardApplication in 3.223 seconds (JVM running for 4.081)
+INFO  23-06-23 20:55:41[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-23 20:55:41[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-23 20:55:41[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  23-06-23 20:56:15[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-23 20:56:15[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-23 20:56:15[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-23 20:56:18[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 13112 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
+INFO  23-06-23 20:56:18[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-06-23 20:56:18[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-23 20:56:18[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
+INFO  23-06-23 20:56:19[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-06-23 20:56:19[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:56:19[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-23 20:56:19[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-06-23 20:56:19[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-23 20:56:19[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1172 ms
+INFO  23-06-23 20:56:19[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-23 20:56:19[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-23 20:56:19[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-23 20:56:19[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-06-23 20:56:19[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-23 20:56:19[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+INFO  23-06-23 20:56:20[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-23 20:56:20[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-23 20:56:20[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-23 20:56:20[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 20:56:20[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-06-23 20:56:20[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-23 20:56:20[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-23 20:56:20[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  23-06-23 20:56:20[main] [BoardApplication:61] - Started BoardApplication in 3.37 seconds (JVM running for 3.986)
+INFO  23-06-23 21:08:03[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-23 21:08:03[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-23 21:08:03[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-23 21:08:07[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 12756 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
+INFO  23-06-23 21:08:07[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-06-23 21:08:08[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-23 21:08:08[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+INFO  23-06-23 21:08:08[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-06-23 21:08:08[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 21:08:08[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-23 21:08:08[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-06-23 21:08:08[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-23 21:08:08[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1289 ms
+INFO  23-06-23 21:08:08[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-23 21:08:08[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-23 21:08:09[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-23 21:08:09[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-06-23 21:08:09[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-23 21:08:09[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+INFO  23-06-23 21:08:09[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-23 21:08:09[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-23 21:08:10[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-23 21:08:10[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 21:08:10[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-06-23 21:08:10[main] [BoardApplication:61] - Started BoardApplication in 3.563 seconds (JVM running for 4.185)
+INFO  23-06-23 21:08:15[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-23 21:08:15[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-23 21:08:15[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 0 ms
+INFO  23-06-23 21:16:21[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-23 21:16:21[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-23 21:16:21[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-23 21:16:25[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 14100 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
+INFO  23-06-23 21:16:25[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-06-23 21:16:25[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-23 21:16:25[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+INFO  23-06-23 21:16:26[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-06-23 21:16:26[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 21:16:26[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-23 21:16:26[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-06-23 21:16:26[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-23 21:16:26[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1153 ms
+INFO  23-06-23 21:16:26[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-23 21:16:26[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-23 21:16:26[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-23 21:16:26[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-06-23 21:16:26[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-23 21:16:26[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+INFO  23-06-23 21:16:27[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-23 21:16:27[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-23 21:16:27[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-23 21:16:27[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 21:16:27[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-06-23 21:16:28[main] [BoardApplication:61] - Started BoardApplication in 3.243 seconds (JVM running for 3.766)
+INFO  23-06-23 21:16:31[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-23 21:16:31[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-23 21:16:31[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 1 ms
+INFO  23-06-23 21:17:52[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-23 21:17:52[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-23 21:17:52[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.
+INFO  23-06-23 21:17:55[main] [BoardApplication:55] - Starting BoardApplication using Java 19.0.1 on DESKTOP-L6DFRQA with PID 3984 (C:\Users\Heo\Spring\board\out\production\classes started by Heo in C:\Users\Heo\Spring\board)
+INFO  23-06-23 21:17:55[main] [BoardApplication:659] - No active profile set, falling back to default profiles: default
+INFO  23-06-23 21:17:56[main] [RepositoryConfigurationDelegate:132] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+INFO  23-06-23 21:17:56[main] [RepositoryConfigurationDelegate:201] - Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
+INFO  23-06-23 21:17:57[main] [TomcatWebServer:108] - Tomcat initialized with port(s): 8080 (http)
+INFO  23-06-23 21:17:57[main] [Http11NioProtocol:173] - Initializing ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 21:17:57[main] [StandardService:173] - Starting service [Tomcat]
+INFO  23-06-23 21:17:57[main] [StandardEngine:173] - Starting Servlet engine: [Apache Tomcat/9.0.52]
+INFO  23-06-23 21:17:57[main] [[/]:173] - Initializing Spring embedded WebApplicationContext
+INFO  23-06-23 21:17:57[main] [ServletWebServerApplicationContext:290] - Root WebApplicationContext: initialization completed in 1132 ms
+INFO  23-06-23 21:17:57[main] [HikariDataSource:110] - HikariPool-1 - Starting...
+INFO  23-06-23 21:17:57[main] [HikariDataSource:123] - HikariPool-1 - Start completed.
+INFO  23-06-23 21:17:57[main] [LogHelper:31] - HHH000204: Processing PersistenceUnitInfo [name: default]
+INFO  23-06-23 21:17:57[main] [Version:44] - HHH000412: Hibernate ORM core version 5.4.32.Final
+INFO  23-06-23 21:17:57[main] [Version:56] - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+INFO  23-06-23 21:17:57[main] [Dialect:175] - HHH000400: Using dialect: org.hibernate.dialect.MariaDB53Dialect
+INFO  23-06-23 21:17:57[main] [JtaPlatformInitiator:52] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+INFO  23-06-23 21:17:57[main] [LocalContainerEntityManagerFactoryBean:437] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+WARN  23-06-23 21:17:58[main] [JpaBaseConfiguration$JpaWebConfiguration:219] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+INFO  23-06-23 21:17:58[main] [Http11NioProtocol:173] - Starting ProtocolHandler ["http-nio-8080"]
+INFO  23-06-23 21:17:58[main] [TomcatWebServer:220] - Tomcat started on port(s): 8080 (http) with context path ''
+INFO  23-06-23 21:17:58[main] [BoardApplication:61] - Started BoardApplication in 3.178 seconds (JVM running for 3.702)
+INFO  23-06-23 21:18:04[http-nio-8080-exec-1] [[/]:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+INFO  23-06-23 21:18:04[http-nio-8080-exec-1] [DispatcherServlet:525] - Initializing Servlet 'dispatcherServlet'
+INFO  23-06-23 21:18:04[http-nio-8080-exec-1] [DispatcherServlet:547] - Completed initialization in 0 ms
+INFO  23-06-23 21:19:17[SpringApplicationShutdownHook] [LocalContainerEntityManagerFactoryBean:651] - Closing JPA EntityManagerFactory for persistence unit 'default'
+INFO  23-06-23 21:19:17[SpringApplicationShutdownHook] [HikariDataSource:350] - HikariPool-1 - Shutdown initiated...
+INFO  23-06-23 21:19:17[SpringApplicationShutdownHook] [HikariDataSource:352] - HikariPool-1 - Shutdown completed.

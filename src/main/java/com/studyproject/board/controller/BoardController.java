@@ -23,6 +23,11 @@ public class BoardController {
 
     @Autowired //의존성 주입
     private BoardService boardService;
+
+    @GetMapping("board")
+    public String boardMain() {
+        return "boardmain";
+    }
     @GetMapping("board/write") //localhost:8080/board/write
     public String boardWriteForm() {
         return "boardwrite";
@@ -36,7 +41,7 @@ public class BoardController {
         return "message";
     }
 
-    @GetMapping("board/list")
+    @GetMapping("/board/list")
     public String boardList(Model model, @PageableDefault(page = 0, size = 10, sort= "id", direction = Sort.Direction.DESC)
     Pageable pageable, String searchKeyword){ //모델은 HashMap 형태를 가진다.(key, value)
         // => addAttribute : 해당 모델에 원하는 속성과 그에 대한 값을 주어 전달할 뷰에 데이터를 전달
